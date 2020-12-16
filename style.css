@@ -1,0 +1,95 @@
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5%;
+  margin: auto;
+  font-family: Arial;
+  width: 800px;
+  margin-top: 20px;
+}
+
+/*Riquadro trasparente */
+
+.riquadro{
+  background-color:rgba(0, 0, 0, 0.5);
+  border-radius: 2%;
+  height: 565px;
+}
+
+header{
+  text-align: center;
+}
+
+.titolo{
+  margin: auto;
+  color: #32CD32;
+}
+
+img{
+  margin-top: 25px;
+  width: 200px;
+  height: 100px;
+}
+
+div{
+  margin: auto;
+}
+
+/* Menù Navigazione */
+
+.row-nav{
+  text-align: center;
+  color: black;
+  background-color: #32CD32;
+  padding: 5px;
+  width: 80%;
+  margin: auto;
+}
+
+section > input{
+    margin-left: 70px;
+}
+
+section > span{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+div:first-child{
+  margin-left: 70px;
+}
+
+div:last-child{
+  color: white;
+  font-size: 15px;
+  margin-left: 70px;
+}
+
+.row-orange{
+  display: block;
+  text-align: center;
+  background-color: orange;
+  padding: 12px;
+  border-radius: 7px;
+  width: 24%;
+}
+
+.row-green{
+  display: block;
+  text-align: center;
+  background-color: #32CD32;
+  padding: 12px;
+  border-radius: 7px;
+  width: 60%;
+}
+
+.row-red{
+  display: block;
+  text-align: center;
+  background-color: #B80000;
+  padding: 12px;
+  border-radius: 7px;
+  width: 12%;
+}
